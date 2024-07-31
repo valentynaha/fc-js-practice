@@ -68,5 +68,11 @@ b = b ** 3;
 let word1 = "cat";
 let word2 = "dog";
 
-console.log(word1 < word2);
+// console.log(word1 < word2);
 
+let q = 3 * "4" - 5;
+console.log(q);
+let w = (5 + 1) / 6;
+console.log(w);
+let e = q >= w;
+console.log(e);
