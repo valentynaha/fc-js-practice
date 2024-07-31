@@ -47,7 +47,6 @@ y = x + 2; //12
 //y = x++ + 2; // y=12, x=11
 y = x + 1 + 2;
 
-
 //Number
 
 /* 
@@ -59,6 +58,15 @@ Moжливі значення:
 Стає результатом "неправильних" обчислень
 */
 
-3/0 //Infinity
-3/Infinity //0
+3 / 0; //Infinity
+3 / Infinity; //0
+
+let b = 2;
+b = b * b;
+b = b ** 3;
+
+let word1 = "cat";
+let word2 = "dog";
+
+console.log(word1 < word2);
 
