@@ -1,25 +1,6 @@
-let box = 5;
+// const userName = 'John';
 
-box = 10;
-
-box = 'text';
-
-box = true;
-
-let wrapper;
-wrapper = 'my name';
-
-let count = 7;
-
-console.log(typeof wrapper);
-
-console.log(typeof count);
+const PI = 3.14;
 
 
-//Naming (називання) змінних 
-
-//Назва змінної має пояснювати для чого вона є або що всередині
-
-// let userInputValue;
-// let userName;
-// let userAvaterURL;
+let userName; //undefined
