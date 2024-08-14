@@ -59,9 +59,19 @@ console.log("Ressult of function work is " + resultOfFunctionSum);
 // goodWeather();
 
 
+// function getMultiplyOfTwoNumbers(num1, num2) {
+//     let result = num1*num2;
+//     return result;
+// }
+
+// console.log(getMultiplyOfTwoNumbers(4,6));
+
+
 function getMultiplyOfTwoNumbers(num1, num2) {
-    let result = num1*num2;
-    return result;
+    let num3 = Number(prompt('First number:'));
+    let num4 = Number(prompt('Second number:'));
+
+    return num3*num4;
 }
 
-console.log(getMultiplyOfTwoNumbers(4,6));
+console.log(getMultiplyOfTwoNumbers());
