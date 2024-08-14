@@ -1,4 +1,3 @@
-
 // let a;
 // a = 3;
 // let b;
@@ -32,24 +31,29 @@
 // num -=55;
 // console.log(num);
 
-
-
-
 //Функції:
 
-function sayHello() { /// Function declaration
-    let userName1='NoName'
-    console.log('Привіт, юзере!')
+function sayHello() {
+  /// Function declaration
+  let userName1 = "NoName";
+  console.log("Привіт, " + userName1);
+  return 5;
 }
 
-sayHello();
+let resultOfFunction = sayHello();
+console.log("Ressult of function work is " + resultOfFunction);
 
-
-
-
-
-function goodWeather() {
-    alert('Сьогодні чудова погода');
+function getSumOfTwoNumbers(num1, num2 = 1) {
+  /// Function declaration
+  let resultSum = num1 + num2;
+  return resultSum;
 }
 
-goodWeather();
+let resultOfFunctionSum = getSumOfTwoNumbers(2, 5);
+console.log("Ressult of function work is " + resultOfFunctionSum);
+
+// function goodWeather() {
+//     alert('Сьогодні чудова погода');
+// }
+
+// goodWeather();
